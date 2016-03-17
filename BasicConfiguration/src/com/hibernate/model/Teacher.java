@@ -66,6 +66,7 @@ public class Teacher {
     }
 
     @Id
+    @GeneratedValue
     public int getId() {
         return id;
     }

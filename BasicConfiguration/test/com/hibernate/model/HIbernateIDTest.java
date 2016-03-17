@@ -7,6 +7,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.Date;
+
 /**
  * Created by tage on 3/17/16.
  */
@@ -28,6 +30,20 @@ public class HIbernateIDTest {
         session.beginTransaction();
         session.save(s);
         session.getTransaction().commit();
+        session.close();
+
+    }
+
+    @Test
+    public void testTeacherSave() {
+        Teacher t = new Teacher();
+        t.setName("t1");
+        t.setTitle(Title.A);
+        t.setAge(1);
+        t.setBirthDate(new Date());
+
+        Session session = sf.openSession();
+        session.save(t);
         session.close();
 
     }
