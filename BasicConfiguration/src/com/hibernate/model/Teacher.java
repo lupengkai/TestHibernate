@@ -1,7 +1,6 @@
 package com.hibernate.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by tage on 3/16/16.
@@ -9,11 +8,22 @@ import javax.persistence.Id;
 
 
 @Entity
+@Table(name="_Teacher")
 public class Teacher {
     private int id;
     private String name;
     private int age;
     private String title;
+    private String yourWifeName;
+
+    @Transient
+    public String getYourWifeName() {
+        return yourWifeName;
+    }
+
+    public void setYourWifeName(String yourWifeName) {
+        this.yourWifeName = yourWifeName;
+    }
 
     public String getTitle() {
         return title;
@@ -23,6 +33,7 @@ public class Teacher {
         this.title = title;
     }
 
+    @Column(name = "_name")
     public String getName() {
         return name;
     }
@@ -31,6 +42,7 @@ public class Teacher {
         this.name = name;
     }
 
+    @Basic //默认
     public int getAge() {
         return age;
     }
