@@ -3,6 +3,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import java.util.Date;
+
 /**
  * Created by tage on 3/16/16.
  */
@@ -13,6 +15,7 @@ public class TeacherTest {
         t.setName("t1");
         t.setTitle("中级");
         t.setAge(1);
+        t.setBirthDate(new Date());
 
         Configuration cfg = new Configuration() ;
         SessionFactory sf = cfg.configure().buildSessionFactory();

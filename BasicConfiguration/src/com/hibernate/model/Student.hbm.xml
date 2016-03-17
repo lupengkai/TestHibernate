@@ -8,7 +8,7 @@
     <class name="Student" table="student">
         <id name="id">
         </id>
-        <property name="name" />
+        <property name="name" type="string" />
         <property name="age" />
     </class>
 

@@ -1,6 +1,7 @@
 package com.hibernate.model;
 
 import javax.persistence.*;
+import java.util.Date;
 
 /**
  * Created by tage on 3/16/16.
@@ -15,6 +16,16 @@ public class Teacher {
     private int age;
     private String title;
     private String yourWifeName;
+    private Date birthDate;
+
+    @Temporal(TemporalType.DATE)
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
 
     @Transient
     public String getYourWifeName() {
