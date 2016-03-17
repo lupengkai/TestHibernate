@@ -14,7 +14,7 @@ public class Teacher {
     private int id;
     private String name;
     private int age;
-    private String title;
+    private Title title;
     private String yourWifeName;
     private Date birthDate;
 
@@ -36,11 +36,12 @@ public class Teacher {
         this.yourWifeName = yourWifeName;
     }
 
-    public String getTitle() {
+    @Enumerated(EnumType.STRING)//EnumType.ORDINAL
+    public Title getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(Title title) {
         this.title = title;
     }
 

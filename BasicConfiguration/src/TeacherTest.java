@@ -1,4 +1,5 @@
 import com.hibernate.model.Teacher;
+import com.hibernate.model.Title;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -13,7 +14,7 @@ public class TeacherTest {
         Teacher t = new Teacher();
         t.setId(1);
         t.setName("t1");
-        t.setTitle("中级");
+        t.setTitle(Title.A);
         t.setAge(1);
         t.setBirthDate(new Date());
 
