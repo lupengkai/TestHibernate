@@ -40,11 +40,8 @@ public class HIbernateIDTest {
 
     @Test
     public void testTeacherSave() {
-        TeacherPK pk = new TeacherPK();
-        pk.setId(1);
-        pk.setName("233");
         Teacher t = new Teacher();
-        t.setPk(pk);
+        t.setName("233");
         t.setTitle(Title.A);
         t.setAge(1);
         t.setBirthDate(new Date());

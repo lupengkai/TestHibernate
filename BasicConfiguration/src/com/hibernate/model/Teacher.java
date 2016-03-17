@@ -11,12 +11,13 @@ import java.util.Date;
 @Entity
 @Table(name="_Teacher")
 // @SequenceGenerator(name = "teacherSEQ",sequenceName = "DB_teacherSEQ" )
+@IdClass(TeacherPK.class)
 public class Teacher {
 
     //@Id //也可以 根据get方法最好，保护封装， getTotalPrice 可以在表中
-  /*  private int id;
-    private String name;*/
-    private TeacherPK pk;
+    private int id;
+    private String name;
+  /*  private TeacherPK pk;*/
     private int age;
     private Title title;
     private String yourWifeName;
@@ -49,16 +50,17 @@ public class Teacher {
         this.title = title;
     }
 
-/*    @Column(name = "_name")
+    @Column(name = "_name")
+    @Id
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
-    }*/
+    }
 
-    @Basic //默认
+    @Basic //默认可以不写
     public int getAge() {
         return age;
     }
@@ -67,8 +69,8 @@ public class Teacher {
         this.age = age;
     }
 
-/*    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  //默认auto支持所有     最好identity支持 mysql
+    @Id
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)  //默认auto支持所有     最好identity支持 mysql
     //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "teacherSEQ")
     public int getId() {
         return id;
@@ -76,14 +78,14 @@ public class Teacher {
 
     public void setId(int id) {
         this.id = id;
-    }*/
+    }
 
-    @EmbeddedId
+/*    @EmbeddedId
     public TeacherPK getPk() {
         return pk;
     }
 
     public void setPk(TeacherPK pk) {
         this.pk = pk;
-    }
+    }*/
 }
