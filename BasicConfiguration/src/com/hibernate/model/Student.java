@@ -3,17 +3,17 @@ package com.hibernate.model;
 /**
  * Created by tage on 3/16/16.
  */
-public class Student {
-    private int id;  //native identity uuid(String)
-    private String name;
+public class Student {//native identity uuid(String)
+    private StudentPK pk;
+
     private int age;
 
-    public String getName() {
-        return name;
+    public StudentPK getPk() {
+        return pk;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPk(StudentPK pk) {
+        this.pk = pk;
     }
 
     public int getAge() {
@@ -24,11 +24,5 @@ public class Student {
         this.age = age;
     }
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 }

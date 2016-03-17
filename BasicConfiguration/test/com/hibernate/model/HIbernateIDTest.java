@@ -21,9 +21,13 @@ public class HIbernateIDTest {
 
     @Test
     public void testStudentSave() {
+        StudentPK pk = new StudentPK();
+        pk.setName("s1");
+        pk.setId(1);
         Student s = new Student();
-        s.setName("s1");
         s.setAge(1);
+        s.setPk(pk);
+
 
 
         Session session = sf.openSession();
@@ -36,8 +40,11 @@ public class HIbernateIDTest {
 
     @Test
     public void testTeacherSave() {
+        TeacherPK pk = new TeacherPK();
+        pk.setId(1);
+        pk.setName("233");
         Teacher t = new Teacher();
-        t.setName("t1");
+        t.setPk(pk);
         t.setTitle(Title.A);
         t.setAge(1);
         t.setBirthDate(new Date());

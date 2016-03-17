@@ -12,7 +12,6 @@ import java.util.Date;
 public class TeacherTest {
     public static void main(String[] args) {
         Teacher t = new Teacher();
-        t.setName("t1");
         t.setTitle(Title.A);
         t.setAge(1);
         t.setBirthDate(new Date());

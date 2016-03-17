@@ -23,8 +23,7 @@ public class StudentTest {
     @Test
     public void testStudentSave() {
         Student s = new Student();
-        s.setId(1);
-        s.setName("s1");
+
         s.setAge(1);
 
 
