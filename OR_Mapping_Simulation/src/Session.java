@@ -30,6 +30,7 @@ public class Session {
     }
 
 
+
     public void save(Student s) throws Exception{
 
 
@@ -62,6 +63,7 @@ public class Session {
         ps.execute();
         ps.close();
         conn.close();
+
 
 
     }
