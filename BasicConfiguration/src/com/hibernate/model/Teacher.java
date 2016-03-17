@@ -78,7 +78,7 @@ public class Teacher {
         this.id = id;
     }*/
 
-    @Id
+    @EmbeddedId
     public TeacherPK getPk() {
         return pk;
     }

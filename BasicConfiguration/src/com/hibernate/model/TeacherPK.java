@@ -8,7 +8,7 @@ import java.io.Serializable;
  * Created by tage on 3/17/16.
  */
 
-@Embeddable
+//@Embeddable
 public class TeacherPK implements Serializable{
     private int id;
     private String name;
