@@ -9,7 +9,6 @@ import org.hibernate.cfg.Configuration;
 public class StudentTest {
     public static void main(String[] args) {
         Student s = new Student();
-        s.setId(1);
         s.setName("s1");
         s.setAge(1);
 

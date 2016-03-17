@@ -4,16 +4,13 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.junit.AfterClass;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by tage on 3/17/16.
  */
-public class StudentTest {
+public class HIbernateIDTest {
     private static SessionFactory sf = null;
     @BeforeClass
     public static void beforeClass() {

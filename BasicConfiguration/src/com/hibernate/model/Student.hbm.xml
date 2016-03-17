@@ -7,6 +7,7 @@
 
     <class name="Student" table="student">
         <id name="id">
+            <generator class="native"/>
         </id>
         <property name="name" type="string" />
         <property name="age" />

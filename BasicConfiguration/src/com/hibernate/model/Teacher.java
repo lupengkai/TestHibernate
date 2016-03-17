@@ -11,6 +11,8 @@ import java.util.Date;
 @Entity
 @Table(name="_Teacher")
 public class Teacher {
+
+    //@Id //也可以 根据get方法最好，保护封装， getTotalPrice 可以在表中
     private int id;
     private String name;
     private int age;

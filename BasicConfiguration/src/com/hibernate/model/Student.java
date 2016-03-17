@@ -4,7 +4,7 @@ package com.hibernate.model;
  * Created by tage on 3/16/16.
  */
 public class Student {
-    private int id;
+    private int id;  //native identity uuid(String)
     private String name;
     private int age;
 
