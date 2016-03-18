@@ -9,7 +9,7 @@ import java.io.Serializable;
  */
 
 //@Embeddable
-public class TeacherPK implements Serializable{
+public class TeacherPK implements Serializable{//序列化到硬盘中或传到其他机器上
     private int id;
     private String name;
 
