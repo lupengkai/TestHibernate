@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.hibernate.model">
+
+    <class name="Student" table="student">
+        <id name="id">
+            <generator class="identity"/>
+        </id>
+        <property name="name"/>
+        <one-to-one name="stuIdCard" property-ref="student"/>
+    </class>
+
+</hibernate-mapping>

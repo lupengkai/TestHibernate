@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - hibernate@localhost" uuid="052c558c-5095-4aaa-8cf4-bbf556cc85cc">
+    <database-info product="MySQL" version="5.6.28-0ubuntu0.15.10.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="hibernate"/>
+      <table id="2" parent="1" name="Husband"/>
+      <table id="3" parent="1" name="StuIdCard"/>
+      <table id="4" parent="1" name="Wife"/>
+      <table id="5" parent="1" name="_Teacher"/>
+      <table id="6" parent="1" name="student"/>
+      <column id="7" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="8" parent="2" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="9" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="10" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="11" parent="3" name="num">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="12" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="13" parent="3" name="FK2dg42hdnji2b8hgj2s2bxpel0">
+        <columns>id</columns>
+        <ref-key>~.student.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="14" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="15" parent="4" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="16" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="17" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="18" parent="5" name="age">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="19" parent="5" name="birthDate">
+        <data-type>date</data-type>
+      </column>
+      <column id="20" parent="5" name="_name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="21" parent="5" name="title">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="22" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="23" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="24" parent="6" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="25" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
