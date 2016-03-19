@@ -1,5 +1,7 @@
 package com.hibernate.model;
 
+import javax.persistence.*;
+
 /**
  * Created by tage on 3/19/16.
  */
@@ -9,7 +11,8 @@ public class Wife {
     private String name;
     private Husband husband;
 
-    @OneToOne(mappedBy = "wife")
+    @OneToOne
+    @PrimaryKeyJoinColumn
     public Husband getHusband() {
         return husband;
     }

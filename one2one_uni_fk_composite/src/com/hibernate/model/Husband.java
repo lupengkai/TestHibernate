@@ -30,7 +30,9 @@ public class Husband {
     }
 
     @OneToOne
-    @PrimaryKeyJoinColumn
+    @JoinColumns({
+            @JoinColumn(name = "wifeId", referencedColumnName = "id"), @JoinColumn(name = "wifeName", referencedColumnName = "name")
+    }) //改名
     public Wife getWife() {
         return wife;
     }

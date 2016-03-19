@@ -31,56 +31,68 @@
       <column id="11" parent="3" name="num">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="12" parent="3" name="PRIMARY">
+      <column id="12" parent="3" name="studentId">
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="13" parent="3" name="UK_bkg3l49qupcli6y04om7nlrku">
+        <columns>studentId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="14" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="13" parent="3" name="FK2dg42hdnji2b8hgj2s2bxpel0">
-        <columns>id</columns>
+      <key id="15" parent="3" name="UK_bkg3l49qupcli6y04om7nlrku">
+        <columns>studentId</columns>
+        <underlying-index>UK_bkg3l49qupcli6y04om7nlrku</underlying-index>
+      </key>
+      <foreign-key id="16" parent="3" name="FKdngjgc9fnygmmftjy14cdusn9">
+        <columns>studentId</columns>
         <ref-key>~.student.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="14" parent="4" name="id">
+      <column id="17" parent="4" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="15" parent="4" name="name">
+      <column id="18" parent="4" name="name">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="16" parent="4" name="PRIMARY">
+      <key id="19" parent="4" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="17" parent="5" name="id">
+      <column id="20" parent="5" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="18" parent="5" name="age">
+      <column id="21" parent="5" name="age">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="19" parent="5" name="birthDate">
+      <column id="22" parent="5" name="birthDate">
         <data-type>date</data-type>
       </column>
-      <column id="20" parent="5" name="_name">
+      <column id="23" parent="5" name="_name">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="21" parent="5" name="title">
+      <column id="24" parent="5" name="title">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="22" parent="5" name="PRIMARY">
+      <key id="25" parent="5" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="23" parent="6" name="id">
+      <column id="26" parent="6" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="24" parent="6" name="name">
+      <column id="27" parent="6" name="name">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="25" parent="6" name="PRIMARY">
+      <key id="28" parent="6" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>

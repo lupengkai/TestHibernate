@@ -47,7 +47,5 @@
         <mapping class="com.hibernate.model.Husband"/>
         <mapping class="com.hibernate.model.Wife"/>
 
-        <mapping resource="com/hibernate/model/StuIdCard.hbm.xml"/>
-        <mapping resource="com/hibernate/model/Student.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

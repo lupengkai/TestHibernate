@@ -6,13 +6,21 @@ import javax.persistence.*;
  * Created by tage on 3/19/16.
  */
 @Entity
-public class Husband {
+@IdClass(WifePK.class)
+public class Wife {
     private int id;
     private String name;
-    private Wife wife;
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getId() {
         return id;
     }
@@ -21,21 +29,12 @@ public class Husband {
         this.id = id;
     }
 
+    @Id
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    @OneToOne
-    @PrimaryKeyJoinColumn
-    public Wife getWife() {
-        return wife;
-    }
-
-    public void setWife(Wife wife) {
-        this.wife = wife;
     }
 }
