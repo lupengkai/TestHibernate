@@ -41,6 +41,7 @@ public class Teacher {
     }
 
     @Enumerated(EnumType.STRING)//EnumType.ORDINAL
+    //@Column(updatable = false)
     public Title getTitle() {
         return title;
     }
@@ -69,7 +70,7 @@ public class Teacher {
     }
 
     @Id
-    //@GeneratedValue(strategy = GenerationType.IDENTITY)  //默认auto支持所有     最好identity支持 mysql
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  //默认auto支持所有     最好identity支持 mysql
     //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "teacherSEQ")
     public int getId() {
         return id;
@@ -87,4 +88,6 @@ public class Teacher {
     public void setPk(TeacherPK pk) {
         this.pk = pk;
     }*/
+
+
 }

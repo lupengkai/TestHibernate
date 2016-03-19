@@ -11,7 +11,7 @@ import java.util.Date;
 @Entity
 @Table(name="_Teacher")
 // @SequenceGenerator(name = "teacherSEQ",sequenceName = "DB_teacherSEQ" )
-@IdClass(TeacherPK.class)
+//@IdClass(TeacherPK.class)
 public class Teacher {
 
     //@Id //也可以 根据get方法最好，保护封装， getTotalPrice 可以在表中
@@ -51,7 +51,7 @@ public class Teacher {
     }
 
     @Column(name = "_name")
-    @Id
+    //@Id
     public String getName() {
         return name;
     }

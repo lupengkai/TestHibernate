@@ -5,13 +5,17 @@
 
 <hibernate-mapping package="com.hibernate.model">
 
-    <class name="Student" table="student">
+    <class name="Student" table="student" dynamic-update="true">
        <!-- <composite-id name="pk" class="com.hibernate.model.StudentPK">
             <key-property name="id"/>
             <key-property name="name"/>
         </composite-id>-->
-        <id name="id"></id>
-        <property name="age" />
+        <id name="id">
+            <generator class="identity"/>
+        </id>
+
+        <property name="age"/>
+        <!-- <property name="age"  update="false"/>-->
     </class>
 
 </hibernate-mapping>
