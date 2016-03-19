@@ -1,3 +1,4 @@
+import com.fasterxml.classmate.AnnotationConfiguration;
 import com.hibernate.model.Student;
 import com.hibernate.model.Teacher;
 import com.hibernate.model.Title;
@@ -5,7 +6,12 @@ import org.hibernate.FlushMode;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.boot.spi.MetadataImplementor;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+import org.hibernate.tool.hbm2ddl.SchemaExport;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -257,7 +263,10 @@ public class HibernateCoreAPITest {
 
     }
 
+    @Test
+    public void testSchemaExport() {
 
+    }
 
 
 

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" filepath="$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreAPI/CoreAPI.iml" filepath="$PROJECT_DIR$/CoreAPI/CoreAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" filepath="$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one2one_uni_fk/one2one_uni_fk.iml" filepath="$PROJECT_DIR$/one2one_uni_fk/one2one_uni_fk.iml" />
     </modules>
   </component>
 </project>
