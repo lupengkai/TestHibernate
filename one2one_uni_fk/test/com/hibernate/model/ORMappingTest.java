@@ -7,6 +7,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+
 /**
  * Created by tage on 3/19/16.
  */
@@ -20,7 +21,7 @@ public class ORMappingTest {
     }
 
     @Test
-    public void testStudentSave() {
+    public void test() {
         Session session = sf.getCurrentSession();
 
 

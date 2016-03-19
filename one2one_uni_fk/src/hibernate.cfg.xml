@@ -44,8 +44,8 @@
         <!--指定映射文件为“hibernate/ch1/UserInfo.hbm.xml”-->
         <!-- <mapping resource="com/hibernate/model/StuIdCard.hbm.xml"/>
          <mapping class="com.hibernate.model.Teacher"/>-->
-        <mapping class="com.hibernate.model.Husband"/>
-        <mapping class="com.hibernate.model.Wife"/>
+        <mapping class="com.hibernate.Husband"/>
+        <mapping class="com.hibernate.Wife"/>
 
         <mapping resource="com/hibernate/model/StuIdCard.hbm.xml"/>
         <mapping resource="com/hibernate/model/Student.hbm.xml"/>
