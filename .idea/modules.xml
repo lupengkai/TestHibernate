@@ -3,15 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" filepath="$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" filepath="$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CoreAPI/CoreAPI.iml" filepath="$PROJECT_DIR$/CoreAPI/CoreAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreAPI/CoreAPI.iml" filepath="$PROJECT_DIR$/CoreAPI/CoreAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" filepath="$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" filepath="$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component/component.iml" filepath="$PROJECT_DIR$/component/component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many2one_uni/many2one_uni.iml" filepath="$PROJECT_DIR$/many2one_uni/many2one_uni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one2many_many2one/one2many_many2one.iml" filepath="$PROJECT_DIR$/one2many_many2one/one2many_many2one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one2many_uni/one2many_uni.iml" filepath="$PROJECT_DIR$/one2many_uni/one2many_uni.iml" />
       <module fileurl="file://$PROJECT_DIR$/one2one_bi_fk/one2one_bi_fk.iml" filepath="$PROJECT_DIR$/one2one_bi_fk/one2one_bi_fk.iml" />
       <module fileurl="file://$PROJECT_DIR$/one2one_bi_pk/one2one_bi_pk.iml" filepath="$PROJECT_DIR$/one2one_bi_pk/one2one_bi_pk.iml" />
       <module fileurl="file://$PROJECT_DIR$/one2one_bi_fk/one2one_bi_pk.iml" filepath="$PROJECT_DIR$/one2one_bi_fk/one2one_bi_pk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/one2one_uni_fk/one2one_uni_fk.iml" filepath="$PROJECT_DIR$/one2one_uni_fk/one2one_uni_fk.iml" />
       <module fileurl="file://$PROJECT_DIR$/one2one_uni_fk/one2one_uni_fk.iml" filepath="$PROJECT_DIR$/one2one_uni_fk/one2one_uni_fk.iml" />
       <module fileurl="file://$PROJECT_DIR$/one2one_uni_fk_composite/one2one_uni_fk_composite.iml" filepath="$PROJECT_DIR$/one2one_uni_fk_composite/one2one_uni_fk_composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/one2one_uni_pk/one2one_uni_pk.iml" filepath="$PROJECT_DIR$/one2one_uni_pk/one2one_uni_pk.iml" />
