@@ -14,7 +14,7 @@ public class Group {
     private String name;
     private Set<User> users = new HashSet<>();
 
-    @OneToMany(mappedBy = "group")
+    @OneToMany(mappedBy = "group", cascade = {CascadeType.ALL}, fetch = FetchType.EAGER)
     public Set<User> getUsers() {
         return users;
     }

@@ -12,7 +12,7 @@ public class User {
     private String name;
     private Group group;
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.ALL}, fetch = FetchType.LAZY)
     public Group getGroup() {
         return group;
     }
