@@ -29,7 +29,7 @@ public class ORMappingTest {
         //session.save();
         session.getTransaction().commit();
 
-    }
+    } 
 
 
     @AfterClass

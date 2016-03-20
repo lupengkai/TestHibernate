@@ -10,7 +10,10 @@
             <generator class="identity"/>
         </id>
         <property name="name"/>
-
+        <set name="teachers" table="t_s">
+            <key column="student_id"></key>
+            <many-to-many class="Teacher" column="teacher_id"/>
+        </set>
     </class>
 
 </hibernate-mapping>
