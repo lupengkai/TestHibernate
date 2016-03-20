@@ -10,7 +10,7 @@
       <schema id="1" name="hibernate"/>
       <table id="2" parent="1" name="t_group"/>
       <table id="3" parent="1" name="t_user"/>
-      <column id="4" parent="2" name="id">
+      <column id="4" parent="2" name="group_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
@@ -18,7 +18,7 @@
         <data-type>varchar(255)</data-type>
       </column>
       <key id="6" parent="2" name="PRIMARY">
-        <columns>id</columns>
+        <columns>group_id</columns>
         <primary>1</primary>
       </key>
       <column id="7" parent="3" name="id">
@@ -28,19 +28,19 @@
       <column id="8" parent="3" name="name">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="9" parent="3" name="groupId">
+      <column id="9" parent="3" name="group_group_id">
         <data-type>int(11)</data-type>
       </column>
-      <index id="10" parent="3" name="FK5dd7vc9gobr2i6p2y89rkedcm">
-        <columns>groupId</columns>
+      <index id="10" parent="3" name="FKnwifwc47q3seflro3qiriq3oa">
+        <columns>group_group_id</columns>
         <desc-columns></desc-columns>
       </index>
       <key id="11" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="12" parent="3" name="FK5dd7vc9gobr2i6p2y89rkedcm">
-        <columns>groupId</columns>
+      <foreign-key id="12" parent="3" name="FKnwifwc47q3seflro3qiriq3oa">
+        <columns>group_group_id</columns>
         <ref-key>~.t_group.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
