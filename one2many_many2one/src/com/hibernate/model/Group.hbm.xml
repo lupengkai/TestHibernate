@@ -10,7 +10,7 @@
             <generator class="identity"/>
         </id>
         <property name="name"/>
-        <set name="users">
+        <set name="users" inverse="true">取我不用拿对方，取对方要取我
             <key column="groupId"></key> <!--少的一方的字段名-->
             <one-to-many class="com.hibernate.model.User"/>
         </set>
