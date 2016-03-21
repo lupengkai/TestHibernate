@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" filepath="$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" filepath="$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreAPI/CoreAPI.iml" filepath="$PROJECT_DIR$/CoreAPI/CoreAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" filepath="$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/component/component.iml" filepath="$PROJECT_DIR$/component/component.iml" />
