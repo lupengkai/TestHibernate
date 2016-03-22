@@ -7,6 +7,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.Map;
+
 
 /**
  * Created by tage on 3/19/16.
@@ -67,8 +69,8 @@ public class ORMappingTest {
         u2.setName("u2");
         Group g = new Group();
         g.setName("g1");
-        g.getUsers().add(u1);
-        g.getUsers().add(u2);
+        g.getUsers().put(1, u1);
+        g.getUsers().put(2, u2);
         u1.setGroup(g);
         u2.setGroup(g);
 
@@ -111,14 +113,15 @@ public class ORMappingTest {
 
         session.beginTransaction();
         Group g = (Group) session.get(Group.class, 1);//只取了roup数据，即使设了cascade（所以与cascade无关，不涉及读取， fetch管读取），many2one默认取many顺带取one那方，反之不然
+        for (Map.Entry<Integer, User> entry : g.getUsers().entrySet()) {
+            System.out.println(entry.getValue().getName());
         //System.out.print(g.getUsers().contains(new User()));
         session.getTransaction().commit();
 
-
+//多方实际中自己存
         //不用session去取 ，eager早已取出来
-       /* for (User u : g.getUsers()) {
-            System.out.println(u.getName());
-        }*/
+
+        }
 
 
     }

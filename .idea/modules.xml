@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" filepath="$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreAPI/CoreAPI.iml" filepath="$PROJECT_DIR$/CoreAPI/CoreAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" filepath="$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QL_1/QL_1.iml" filepath="$PROJECT_DIR$/QL_1/QL_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stu_Course_Score/Stu_Course_Score.iml" filepath="$PROJECT_DIR$/Stu_Course_Score/Stu_Course_Score.iml" />
       <module fileurl="file://$PROJECT_DIR$/component/component.iml" filepath="$PROJECT_DIR$/component/component.iml" />
       <module fileurl="file://$PROJECT_DIR$/many2many_bi/many2many_bi.iml" filepath="$PROJECT_DIR$/many2many_bi/many2many_bi.iml" />
       <module fileurl="file://$PROJECT_DIR$/many2many_uni/many2many_uni.iml" filepath="$PROJECT_DIR$/many2many_uni/many2many_uni.iml" />

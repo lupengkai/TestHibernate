@@ -1,10 +1,7 @@
 package com.hibernate.model;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by tage on 3/20/16.
@@ -14,6 +11,7 @@ import java.util.Set;
 public class Group {
     private int id;
     private String name;
+/*
     private List<User> users = new ArrayList<>();
 
     @OneToMany(mappedBy = "group", cascade = {CascadeType.ALL})
@@ -23,6 +21,21 @@ public class Group {
     }
 
     public void setUsers(List<User> users) {
+        this.users = users;
+    }
+*/
+
+
+    private Map<Integer, User> users = new HashMap<>();
+
+
+    @OneToMany(mappedBy = "group", cascade = {CascadeType.ALL})
+    @MapKey(name = "id")
+    public Map<Integer, User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Map<Integer, User> users) {
         this.users = users;
     }
 
