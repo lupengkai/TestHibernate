@@ -5,8 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" filepath="$PROJECT_DIR$/BasicConfiguration/BasicConfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" filepath="$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreAPI/CoreAPI.iml" filepath="$PROJECT_DIR$/CoreAPI/CoreAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate_1+N/Hibernate_1+N.iml" filepath="$PROJECT_DIR$/Hibernate_1+N/Hibernate_1+N.iml" />
       <module fileurl="file://$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" filepath="$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QBC/QBC.iml" filepath="$PROJECT_DIR$/QBC/QBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/QL_1/QL_1.iml" filepath="$PROJECT_DIR$/QL_1/QL_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QL_2/QL_2.iml" filepath="$PROJECT_DIR$/QL_2/QL_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stu_Course_Score/Stu_Course_Score.iml" filepath="$PROJECT_DIR$/Stu_Course_Score/Stu_Course_Score.iml" />
       <module fileurl="file://$PROJECT_DIR$/component/component.iml" filepath="$PROJECT_DIR$/component/component.iml" />
       <module fileurl="file://$PROJECT_DIR$/many2many_bi/many2many_bi.iml" filepath="$PROJECT_DIR$/many2many_bi/many2many_bi.iml" />
