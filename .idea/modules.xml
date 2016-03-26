@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" filepath="$PROJECT_DIR$/Collections_Mapping/Collections_Mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreAPI/CoreAPI.iml" filepath="$PROJECT_DIR$/CoreAPI/CoreAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hibernate_1+N/Hibernate_1+N.iml" filepath="$PROJECT_DIR$/Hibernate_1+N/Hibernate_1+N.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate_Concurrency_Optimistic/Hibernate_Concurrency_Optimistic.iml" filepath="$PROJECT_DIR$/Hibernate_Concurrency_Optimistic/Hibernate_Concurrency_Optimistic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate_Concurrency_Pessimistic_Lock/Hibernate_Concurrency_Pessimistic_Lock.iml" filepath="$PROJECT_DIR$/Hibernate_Concurrency_Pessimistic_Lock/Hibernate_Concurrency_Pessimistic_Lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate_list_iterate/Hibernate_list_iterate.iml" filepath="$PROJECT_DIR$/Hibernate_list_iterate/Hibernate_list_iterate.iml" />
       <module fileurl="file://$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" filepath="$PROJECT_DIR$/OR_Mapping_Simulation/OR_Mapping_Simulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/QBC/QBC.iml" filepath="$PROJECT_DIR$/QBC/QBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/QL_1/QL_1.iml" filepath="$PROJECT_DIR$/QL_1/QL_1.iml" />
